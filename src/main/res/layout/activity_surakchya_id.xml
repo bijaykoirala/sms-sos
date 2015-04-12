@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_25_dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dimen_25_dp"
+        android:text="Your surakchya code is printed below this line." />
+
+    <TextView
+        android:id="@+id/tv_surakchya_code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dimen_25_dp"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:text="123"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dimen_25_dp"
+        android:text="Please make sure you keep the code in safe place and remember it. This is very important to track your updates later on" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:background="@drawable/bg_button"
+        android:id="@+id/btn_done"
+        android:onClick="done"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

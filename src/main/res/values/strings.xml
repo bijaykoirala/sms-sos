@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS-SOS</string>
+    <string name="settings">settings</string>
+
+    <!-- fields for registration -->
+    <string name="_id">ID</string>
+    <string name="name">Name</string>
+    <string name="address_zone">Zone</string>
+    <string name="address_district">District</string>
+    <string name="address_area">Area</string>
+    <string name="dob">Date of Birth</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="gps">Get GPS</string>
+    <string name="picture">Get Picture</string>
+    <string name="ingo_id">INGO Id</string>
+
+
+    <string name="user_name">User Name</string>
+    <string name="timestamp">Time Stamp</string>
+    <string name="hint_name">[Enter your name]</string>
+    <string name="hint_address_zone">[Enter your zone]</string>
+    <string name="hint_address_district">[Enter your district]</string>
+    <string name="hint_address_area">[Enter your area]</string>
+    <string name="hint_dob">[Enter your Date of Birth]</string>
+    <string name="hint_emergency_contact">[Enter your emergency contact]</string>
+    <string name="hint_ingo_id">[Enter your INGO id]</string>
+
+</resources>
